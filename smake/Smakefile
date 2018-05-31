@@ -1,0 +1,25 @@
+tree1:leaf11
+	echo "Tree1"
+leaf11:leaf12
+	echo "Tree 1 leaf 1"
+tree2:leaf21
+	echo "Tree 2"
+leaf21:leaf22
+	echo "Tree 2 leaf 1"
+leaf13:
+	echo "Tree 1 leaf 3"
+leaf14:
+	echo "Tree 1 leaf 4"
+leaf12:leaf13 leaf14
+	echo "Tree 1 leaf 2"
+leaf22:leaf23 leaf24 leaf25 leaf26
+	echo "Tree 2 leaf 2"
+leaf23:
+	echo "Tree 2 leaf 3"
+leaf24:
+	echo "Tree 2 leaf 4"
+leaf25:
+	echo "Tree 2 leaf 5"
+leaf26:
+	echo "Tree 2 leaf 6"
+

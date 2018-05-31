@@ -1,0 +1,24 @@
+                                                    Assignment 4: sfind
+Program Logic:
+1. Get the commmand line arguments
+2. Determine whether they contain the flags Delete and EXEC with an optinal command for EXEC
+3. Also the flag -name will process all files that contain the substring
+4. Excute the command for either print or EXEC
+
+Functions:
+int fileDescriptorCount();
+ /*This could be a tree structure, but I am not completely sure if this would be the best course of action*/
+struct Node fileDescriptor(node fileDescriptor); /*to avoid running out of fileDescriptors
+void prtinf( char* fileName); 
+void exec(argv, char fileName);
+char* fileSearch(dir *File);
+
+Error Testing: 
+Check for spaces in the command line
+files that don't exist
+files that fail to execute
+files that return no matches
+
+Unit Testing
+Test with different directory and depths
+                             
